@@ -7,7 +7,12 @@ class ITEAFUNCTORCLASS_STRINGPALSHARED_EXPORT Iteafunctorclass_stringPal
 {
 
 public:
-    Iteafunctorclass_stringPal();
+    Iteafunctorclass_stringPal(std::string st):m_st(st){}
+    unsigned operator()() const {
+        return m_st.size();//for the sake of simplicity, so that testing is easier later on.
+    }
+private:
+    std::string m_st;
 };
 
 #endif // ITEAFUNCTORCLASS_STRINGPAL_H

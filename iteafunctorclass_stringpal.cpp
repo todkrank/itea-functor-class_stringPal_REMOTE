@@ -1,6 +1,4 @@
 #include "iteafunctorclass_stringpal.h"
+#include <string>
 
-
-Iteafunctorclass_stringPal::Iteafunctorclass_stringPal()
-{
-}
+//turned out to eb an empty cpp. Is it okay?

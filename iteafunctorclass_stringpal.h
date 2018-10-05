@@ -2,6 +2,7 @@
 #define ITEAFUNCTORCLASS_STRINGPAL_H
 
 #include "itea-functor-class_stringpal_global.h"
+#include <string>
 
 class ITEAFUNCTORCLASS_STRINGPALSHARED_EXPORT Iteafunctorclass_stringPal
 {
